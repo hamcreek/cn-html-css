@@ -1,0 +1,37 @@
+body, h1, h2, h3, h4, h5{
+    margin: 0;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header{
+    background: blue;
+    .header-text{
+
+        padding: 30px 0px;
+        text-align: center;
+        h1, p{
+            color: white;
+        }
+          
+    }
+}
+
+.menu{
+    .nav-menu{
+         display: flex;
+         justify-content: center;
+         gap: 30px;
+         margin-top: 30px;
+        .menu-item a{
+            background: blue;
+            color: white;
+            padding: 10px 20px;
+            display: block;
+            border-radius: 8px;
+        }
+    }
+}
