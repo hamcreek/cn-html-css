@@ -35,3 +35,13 @@ body, h1, h2, h3, h4, h5{
         }
     }
 }
+
+.media{
+    margin-top: 50px;
+}
+
+.text{
+    column-count: 3;
+    column-gap: 30px;
+    column-width: 200px;
+}
