@@ -45,3 +45,21 @@ body, h1, h2, h3, h4, h5{
     column-gap: 30px;
     column-width: 200px;
 }
+
+.my-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* CSS untuk mengatur tampilan kotak 3 kolom */
+.three-columns {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin: 5px;
+}
